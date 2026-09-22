@@ -1,0 +1,62 @@
+# Dependencies and generated output
+node_modules/
+dist/
+out/
+build/
+.next/
+.vinext/
+.vite/
+.cache/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs, temporary files and editor backups
+*.log
+*.log.*
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+/tmp/
+/temp/
+/output/
+/outputs/
+/artifacts/
+/playwright-report/
+/test-results/
+
+# Editor and operating-system settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local AI tooling and hosting state
+.agents/
+.codex/
+.claude/
+.cursor/
+.openai/
+.impeccable/
+.wrangler/
+AGENTS.md
+CLAUDE.md
+
+# Local maintenance guides; keep README images and license notices
+/docs/design.md
+/docs/development.md
+/docs/publishing-bg.md
