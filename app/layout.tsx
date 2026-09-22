@@ -17,7 +17,9 @@ export const metadata: Metadata = {
   title: 'Илия — Full-Stack Developer',
   description:
     'Илия — Full-Stack Developer. Java, React, Linux и автоматизация. Лични проекти, практически идеи и софтуер, който работи.',
-  icons: { icon: './favicon.svg' },
+  icons: {
+    icon: `${process.env.BASE_PATH?.replace(/\/$/, '') ?? ''}/favicon.svg`,
+  },
   openGraph: {
     title: 'Iliya — Full-Stack Developer',
     description:

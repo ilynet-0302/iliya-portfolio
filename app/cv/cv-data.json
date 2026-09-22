@@ -1,0 +1,195 @@
+{
+  "name": { "bg": "Илия Балтаджиев", "en": "Iliya Baltadzhiev" },
+  "role": "Full-Stack Developer",
+  "email": "iliabal0404@gmail.com",
+  "phone": "+359889561279",
+  "phoneDisplay": "+359 889 561 279",
+  "linkedin": "https://www.linkedin.com/in/iliabaltadzhiev/",
+  "github": "https://github.com/ilynet-0302",
+  "website": "https://ilynet-0302.github.io/iliya-portfolio/",
+  "location": { "bg": "Варна, България", "en": "Varna, Bulgaria" },
+  "summary": {
+    "bg": "Разработвам приложения с Java, Spring Boot, React и TypeScript. Работата ми обхваща и автоматизация с Ansible, бази данни и отстраняване на проблеми в Linux средите, в които работят услугите.",
+    "en": "I develop applications with Java, Spring Boot, React and TypeScript. My work also spans Ansible automation, databases and troubleshooting the Linux environments that run our services."
+  },
+  "labels": {
+    "bg": {
+      "title": "CV - Илия Балтаджиев",
+      "meta": "Професионален опит, образование, умения и проекти на Илия Балтаджиев. Full-Stack Developer с Java, React, Linux и Ansible. Изтеглете CV в PDF.",
+      "download": "Изтегли CV",
+      "downloadHint": "PDF · Български · 1 страница",
+      "experience": "Професионален опит",
+      "education": "Образование",
+      "skills": "Умения",
+      "languages": "Езици",
+      "contact": "Контакти",
+      "projects": "Избрани проекти",
+      "projectsIntro": "Лични проекти, в които прилагам и развивам уменията си.",
+      "source": "Кодът в GitHub",
+      "portfolio": "Разгледай портфолиото",
+      "close": "Да поговорим за следващия проект.",
+      "email": "Пиши ми",
+      "onPage": "В тази страница"
+    },
+    "en": {
+      "title": "CV - Iliya Baltadzhiev",
+      "meta": "Experience, education, skills and projects of Iliya Baltadzhiev. Full-Stack Developer working with Java, React, Linux and Ansible. Download a PDF CV.",
+      "download": "Download CV",
+      "downloadHint": "PDF · English · 1 page",
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "languages": "Languages",
+      "contact": "Contact",
+      "projects": "Selected projects",
+      "projectsIntro": "Personal projects where I put my skills into practice and explore new ideas.",
+      "source": "Source on GitHub",
+      "portfolio": "Explore the portfolio",
+      "close": "Let's talk about the next project.",
+      "email": "Get in touch",
+      "onPage": "On this page"
+    }
+  },
+  "experience": {
+    "company": "T&D Engineering",
+    "role": "Full-Stack Developer",
+    "startDate": "2025-07-03",
+    "period": { "bg": "Юли 2025 - до момента", "en": "July 2025 - present" },
+    "bullets": {
+      "bg": [
+        "Разработка на backend услуги с Java и Spring Boot и работа с PostgreSQL.",
+        "Изграждане на уеб интерфейси с React и TypeScript.",
+        "Автоматизация на задачи с Ansible.",
+        "Диагностика и отстраняване на проблеми в Linux сървърите, на които работят услугите."
+      ],
+      "en": [
+        "Develop backend services with Java and Spring Boot and work with PostgreSQL.",
+        "Build web interfaces with React and TypeScript.",
+        "Automate tasks with Ansible.",
+        "Diagnose and resolve issues on the Linux servers that host our services."
+      ]
+    }
+  },
+  "education": [
+    {
+      "id": "bachelor",
+      "year": "2026",
+      "title": {
+        "bg": "Софтуерни и интернет технологии",
+        "en": "Software and Internet Technologies"
+      },
+      "school": {
+        "bg": "Технически университет - Варна",
+        "en": "Technical University of Varna"
+      },
+      "qualification": {
+        "bg": "Бакалавър · редовно обучение",
+        "en": "Bachelor's degree · full-time"
+      },
+      "note": {
+        "bg": "Успешно завършено образование.",
+        "en": "Degree successfully completed."
+      }
+    },
+    {
+      "id": "masters",
+      "year": "2026",
+      "title": {
+        "bg": "Анализ на данни и мрежови технологии",
+        "en": "Data Analysis and Network Technologies"
+      },
+      "school": {
+        "bg": "Технически университет - Варна",
+        "en": "Technical University of Varna"
+      },
+      "qualification": {
+        "bg": "Кандидатстване за магистър · задочно",
+        "en": "Master's application · part-time"
+      },
+      "note": {
+        "bg": "Подадени документи; очаква се потвърждение за прием.",
+        "en": "Application submitted; admission pending."
+      }
+    },
+    {
+      "id": "secondary",
+      "year": "2022",
+      "title": { "bg": "Системен програмист", "en": "Systems Programmer" },
+      "school": {
+        "bg": "СУ „Христо Ботев“, гр. Тутракан",
+        "en": "Hristo Botev Secondary School, Tutrakan"
+      },
+      "qualification": {
+        "bg": "Средно образование с професионална квалификация",
+        "en": "Secondary education with a vocational qualification"
+      },
+      "note": { "bg": "", "en": "" }
+    }
+  ],
+  "skills": [
+    {
+      "name": { "bg": "Backend", "en": "Backend" },
+      "items": ["Java", "Spring Boot", "PostgreSQL", "Supabase"]
+    },
+    {
+      "name": { "bg": "Frontend", "en": "Frontend" },
+      "items": ["React", "TypeScript", "Svelte", "HTML", "CSS"]
+    },
+    {
+      "name": { "bg": "Инфраструктура", "en": "Infrastructure" },
+      "items": ["Linux", "Ansible", "Docker", "Git", "CI/CD"]
+    }
+  ],
+  "languages": [
+    {
+      "name": { "bg": "Български", "en": "Bulgarian" },
+      "level": { "bg": "Свободно общуване", "en": "Fluent" }
+    },
+    {
+      "name": { "bg": "Английски", "en": "English" },
+      "level": { "bg": "C1 - самооценка", "en": "C1 - self-assessed" }
+    }
+  ],
+  "projects": [
+    {
+      "id": "travel",
+      "name": "Travel Memory Map",
+      "description": {
+        "bg": "Пътувания като интерактивни истории: карти, снимки, Trip Replay и споделени разходи.",
+        "en": "Interactive travel stories with maps, photos, trip replay and shared expenses."
+      },
+      "tech": "Java · Spring Boot · React · PostgreSQL",
+      "url": "https://github.com/ilynet-0302/Travel-Memory-Map"
+    },
+    {
+      "id": "loglens",
+      "name": "LogLens",
+      "description": {
+        "bg": "Локален анализ на логове в браузъра с търсене, филтри и времева линия.",
+        "en": "Browser-based log investigation with search, filters and a timeline; files stay local."
+      },
+      "tech": "React · TypeScript · Web Workers · Vitest",
+      "url": "https://github.com/ilynet-0302/LogLens"
+    },
+    {
+      "id": "cinepick",
+      "name": "Cinepick",
+      "description": {
+        "bg": "Откриване на филми и сериали, препоръки, списъци за гледане и лични колекции.",
+        "en": "Film and TV discovery with recommendations, watchlists and personal collections."
+      },
+      "tech": "React · TypeScript · TMDB · Supabase",
+      "url": "https://github.com/ilynet-0302/Cinepick"
+    },
+    {
+      "id": "plant",
+      "name": "Полей ме! / Water me!",
+      "description": {
+        "bg": "Windows widget с графици за поливане, известия и локално съхранение на данните.",
+        "en": "A Windows widget with watering schedules, notifications and local data storage."
+      },
+      "tech": "Svelte · TypeScript · Tauri · Rust",
+      "url": "https://github.com/ilynet-0302/plant-watering-widget"
+    }
+  ]
+}

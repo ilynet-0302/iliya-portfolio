@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useSyncExternalStore } from 'react';
-import { copy, type Language } from './portfolio';
+import { copy, type Language, type Localized } from './portfolio';
 
 const STORAGE_KEY = 'iliya-language';
 const LANGUAGE_EVENT = 'portfolio:language-change';
@@ -37,24 +37,30 @@ function serverLanguage(): Language {
   return 'bg';
 }
 
-export function useLanguage() {
+export function useLanguage(metadata?: {
+  title: Localized<string>;
+  description: Localized<string>;
+}) {
   const language = useSyncExternalStore(
     subscribe,
     readLanguage,
     serverLanguage,
   );
   const text = copy[language];
+  const title =
+    metadata?.title[language] ??
+    (language === 'bg'
+      ? 'Илия — Full-Stack Developer'
+      : 'Iliya — Full-Stack Developer');
+  const description = metadata?.description[language] ?? text.meta;
 
   useEffect(() => {
     document.documentElement.lang = language;
-    document.title =
-      language === 'bg'
-        ? 'Илия — Full-Stack Developer'
-        : 'Iliya — Full-Stack Developer';
+    document.title = title;
     document
       .querySelector('meta[name="description"]')
-      ?.setAttribute('content', text.meta);
-  }, [language, text.meta]);
+      ?.setAttribute('content', description);
+  }, [language, title, description]);
 
   function changeLanguage(next: Language) {
     const url = new URL(window.location.href);

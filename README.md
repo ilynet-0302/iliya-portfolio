@@ -14,6 +14,7 @@ This portfolio brings that work together with a personal introduction. It connec
 
 - **Projects you can explore.** Visual previews, short descriptions, technology choices, and links to the applications and their source code.
 - **The person behind the work.** My development interests, professional focus and the tools I work with.
+- **A CV of its own.** A separate page brings together my experience, education, skills and selected projects, with a one-page PDF available in either language.
 - **Two languages.** Bulgarian and English versions of the content, with a language choice that can be shared and remembered.
 - **A direct way to connect.** Email, LinkedIn and GitHub links in one place.
 

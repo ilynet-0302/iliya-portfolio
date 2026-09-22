@@ -5,21 +5,30 @@ export function SiteHeader({
   t,
   lang,
   onLanguageChange,
+  page = 'home',
 }: {
   t: Copy;
   lang: Language;
   onLanguageChange: (language: Language) => void;
+  page?: 'home' | 'cv';
 }) {
+  const home = page === 'cv' ? `../?lang=${lang}` : '';
   return (
     <header className="header wrap">
-      <a className="wordmark" href="#top" aria-label={t.home}>
+      <a className="wordmark" href={`${home}#top`} aria-label={t.home}>
         iliya<span>.</span>
         <PortfolioMark />
       </a>
       <nav aria-label={t.nav}>
-        <a href="#projects">{t.projects}</a>
-        <a href="#about">{t.about}</a>
-        <a href="#contact">{t.contact}</a>
+        <a href={`${home}#projects`}>{t.projects}</a>
+        <a href={`${home}#about`}>{t.about}</a>
+        <a href={`${home}#contact`}>{t.contact}</a>
+        <a
+          href={page === 'cv' ? `?lang=${lang}` : `./cv/?lang=${lang}`}
+          aria-current={page === 'cv' ? 'page' : undefined}
+        >
+          CV
+        </a>
       </nav>
       <fieldset className="language" aria-label={t.language}>
         <button
