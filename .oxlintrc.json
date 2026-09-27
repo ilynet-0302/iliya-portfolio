@@ -23,8 +23,11 @@
     "typeCheck": true
   },
   "ignorePatterns": [
+    "node_modules/**",
     ".next/**",
     ".vinext/**",
+    ".vite/**",
+    ".cache/**",
     "out/**",
     "build/**",
     "dist/**",
