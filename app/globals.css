@@ -404,7 +404,8 @@ h2 {
 .project-image:hover .image-action {
   background: var(--accent);
 }
-.project-travel {
+.project-travel,
+.project-rhythm {
   grid-column: 1/-1;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -414,10 +415,16 @@ h2 {
 .project-travel .project-image img {
   aspect-ratio: 1.73;
 }
-.project-travel .project-title-row {
+.project-rhythm .project-image img {
+  aspect-ratio: 2;
+  object-fit: contain;
+}
+.project-travel .project-title-row,
+.project-rhythm .project-title-row {
   display: block;
 }
-.project-travel .project-type {
+.project-travel .project-type,
+.project-rhythm .project-type {
   margin-top: 8px;
   display: block;
 }
@@ -442,7 +449,8 @@ h3 {
 .project-content {
   padding-top: 23px;
 }
-.project-travel .project-content {
+.project-travel .project-content,
+.project-rhythm .project-content {
   padding-top: 0;
 }
 .project-content > p {
@@ -834,7 +842,8 @@ h3 {
     display: block;
     margin-top: 7px;
   }
-  .project-travel {
+  .project-travel,
+  .project-rhythm {
     gap: 28px;
     grid-template-columns: 1.2fr 1fr;
   }
@@ -960,10 +969,12 @@ h3 {
   .project-grid {
     gap: 43px 22px;
   }
-  .project-travel {
+  .project-travel,
+  .project-rhythm {
     display: block;
   }
-  .project-travel .project-content {
+  .project-travel .project-content,
+  .project-rhythm .project-content {
     padding-top: 23px;
   }
   .project-travel .project-image img {

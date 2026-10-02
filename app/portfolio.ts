@@ -130,6 +130,25 @@ export type Copy = (typeof copy)[Language];
 
 export const projects: readonly Project[] = [
   {
+    id: 'rhythm',
+    name: { bg: 'Личен ритъм', en: 'Personal Rhythm' },
+    type: { bg: 'Личен фотодневник', en: 'Personal photo journal' },
+    description: {
+      bg: 'Завръщането към тренировките, ден след ден. Снимки, храна и мисли между сериите — личен дневник, който пази и промяната, и историята зад нея.',
+      en: 'Returning to training, one day at a time. Photos, meals and thoughts between sets — a personal journal that captures both the change and the story behind it.',
+    },
+    tech: ['React', 'TypeScript', 'Supabase', 'GitHub Pages'],
+    image: 'lichen-ritam.png',
+    width: 1280,
+    height: 640,
+    alt: {
+      bg: 'Личен ритъм — Тренировки. Храна. Мисли. Ден след ден.',
+      en: 'Personal Rhythm — Training. Food. Thoughts. Day after day.',
+    },
+    live: 'https://ilynet-0302.github.io/lichen-ritam/',
+    source: 'https://github.com/ilynet-0302/lichen-ritam',
+  },
+  {
     id: 'travel',
     name: { bg: 'Travel Memory Map', en: 'Travel Memory Map' },
     type: { bg: 'Full-stack приложение', en: 'Full-stack application' },
